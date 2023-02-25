@@ -58,7 +58,7 @@ class _CartScreenState extends State<CartScreen> {
                      children: [
                        Image(image: AssetImage('images/bank3')),
                        SizedBox(height: 20,),
-                       Text('Explore Product', style: Theme.of(context).textTheme.subtitle2,),
+                       Text('Explore Product', style: Theme.of(context).textTheme.headline6,),
                      ],
                    );
                  }else{
